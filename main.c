@@ -1,5 +1,5 @@
-#include "mystring.h"
 #include <stdio.h>
+#include "mystring.h"
 
 int main() {
     
