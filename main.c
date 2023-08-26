@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "mystring.h"
 
+
 int main() {
     
     /*
@@ -126,6 +127,7 @@ int main() {
 
     /*
     //// TEST myStrcoll Function
+
     char str1[15] = "abc";
     char str2[15] = "ABC";
     int ret;
@@ -137,6 +139,7 @@ int main() {
 
     /*
     //// TEST myStrcpy Function
+
     char src[40];
     char dest[100];
 
@@ -149,6 +152,7 @@ int main() {
 
     /*
     //// TEST myStrncpy Function
+
     char src[40];
     char dest[12];
 
@@ -161,6 +165,7 @@ int main() {
 
     /*
     //// TEST myStrcspn Function
+
     int len;
     const char str1[] = "ABCDEF4960910";
     const char str2[] = "013";
@@ -171,6 +176,7 @@ int main() {
 
     /*
     //// TEST myStrpbrk Function
+
     const char str1[] = "abcde2fghi3jk4l";
     const char str2[] = "34";
     char *ret;
@@ -185,6 +191,7 @@ int main() {
 
     /*
     //// TEST myStrrchr Function
+
     const char str[] = "https://www.tutorialspoint.com";
     const char ch = '.';
     char *ret;
@@ -196,6 +203,7 @@ int main() {
 
     /*
     //// TEST myStrspn Function
+
     int len;
     const char str1[] = "ABCDEFG019874";
     const char str2[] = "ABCD";
@@ -207,6 +215,7 @@ int main() {
 
     /*
     //// TEST myStrstr Function
+
     const char haystack[20] = "TutorialsPoint";
     const char needle[10] = "Point";
     char *ret;
@@ -218,6 +227,7 @@ int main() {
 
     /*
     //// TEST myStrtok Function
+
     char str[80] = "This is - www.tutorialspoint.com - website";
     const char s[2] = "-";
     char *token;
@@ -235,6 +245,7 @@ int main() {
    
     /*
     //// TEST myStrxfrm Function
+    
     char dest[20];
     char src[20];
     int len;
