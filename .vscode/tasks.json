@@ -4,7 +4,7 @@
 		{
 			"type": "cppbuild",
 			"label": "C/C++: gcc.exe build active file",
-			"command": "D:\\program files\\mingw64\\bin\\gcc.exe",
+			"command": "C:\\mingw64\\bin\\gcc.exe",
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
@@ -19,7 +19,7 @@
 				"$gcc"
 			],
 			"group": "build",
-			"detail": "compiler: \"D:\\program files\\mingw64\\bin\\gcc.exe\""
+			"detail": "compiler: C:\\mingw64\\bin\\gcc.exe"
 		}
 	]
 }
